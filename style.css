@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f2f2f2;
+}
+
+.content{
+    max-width: 631px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.note-input {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#color-input{
+    width: 90px;
+    height: 35px;
+    padding: auto;
+}
+
+#save-btn{
+    background-color: #0de60d;
+    color: #ffffff;
+    box-shadow: 5px 5px #d1d1e0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.m3 {
+    margin: 1rem!important;
+}
+.notes-card{
+    background-color: rgb(12, 233, 12);
+    padding: 10px;
+    height: 200px;
+    color: white;
+}
+
+#text-input{
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 5px 5px #02f16e;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.m1{
+    margin: 0.25rem;
+}
+
+textarea{
+    overflow: auto;
+    resize: vertical;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#output-container{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.mt-3{
+    margin-top: 1rem!important;
+}
+
+.notes-card{
+    padding: 15px;
+    border-radius: 5px;
+    width: 260px;
+    box-shadow: 4px 4px #f2f2f2;
+    margin: 10px;
+    height: 160px;
+    border-top: solid 5px #0bdb0b;
+}
